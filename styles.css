@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url(/frontend/background/rupee.jpg);
+    background-size: cover;
+}
+
+header{
+    background: #5dabff;
+    /* height: 50px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+.logo img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.navbar-collapse ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar-collapse a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    padding: 12px;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.navbar-collapse a:hover{
+    background-color: #ddddddb5;
+    opacity: 1;
+    transition: opacity 2ms ease-in-out;
+}
+.converter {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: right;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.alerts {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.alerts h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.alert-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.alert-container label {
+    font-weight: bold;
+    flex-basis: 40%;
+}
+
+.alert-container input[type="number"] {
+    flex-basis: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.alert-container button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alert-container button:hover {
+    background-color: #0056b3;
+}
